@@ -5,7 +5,26 @@ Page({
    * Page initial data
    */
   data: {
-
+    thisWeekMoive: [
+      {
+        name: '教父',
+        comment: '最精彩的剧本，最真实的黑帮电影',
+        imagePath: '/images/jf.png',
+        isHighlyRecommonded: true
+      },
+      {
+        name: '泰坦尼克号',
+        comment: '泰坦尼克号吧啦咯啦咯啦咯了',
+        imagePath: '/images/movieImg1.png',
+        isHighlyRecommonded: true
+      },
+      {
+        name: '这个杀手不太冷',
+        comment: '这个杀手不太冷吧啦咯啦咯啦咯了',
+        imagePath: '/images/moiveImg2.png',
+        isHighlyRecommonded: true
+      }
+    ]
   },
 
   /**

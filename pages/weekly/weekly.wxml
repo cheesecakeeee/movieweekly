@@ -1,7 +1,11 @@
 <!--pages/weekly/weekly.wxml-->
-<view class='container'>
-  <text>本周推荐</text>
-  <image src='/images/jf.png'></image>
-  <text>教父</text>
-  <text>点评：最精彩的剧本，最真实的黑帮电影</text>
+<view class='moive' wx:for='{{thisWeekMoive}}'>
+  <view>
+    <image src='{{item.imagePath}}' class='moive-image'></image >
+  </view>
+  <view class='moive-detail'>
+    <text>第{{index+1}}周：{{item.name}}</text>
+    <text>点评：{{item.comment}}</text>
+    <text style='color: red; font-size: 40rpx' hidden='{{!item.isHighlyRecommonded}}'>强烈推荐</text>
+  </view>
 </view>

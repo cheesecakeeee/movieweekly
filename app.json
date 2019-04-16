@@ -20,5 +20,13 @@
     ],
     "color": "#ccc",
     "selectedColor": "#000"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Mini Prorgam",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
   }
 }
