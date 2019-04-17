@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style='height: 400rpx; background: #eee' circular='{{circular}}'>
+    <block wx:for='{{moiveImgs}}'>
+      <swiper-item>
+        <image class='swiper-img' src='{{item}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <text>{{name}}</text>
+  <view class='detail-introduction'>{{introduction}}</view>
+</view>

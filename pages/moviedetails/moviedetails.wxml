@@ -1,0 +1,7 @@
+<!--pages/moviedetails/moviedetails.wxml-->
+<view class='container'>
+  <image src='{{movie.img}}' style='width:400rpx;'></image>
+  <text>{{movie.name}}</text>
+  <text>评分：<text style='color: red'>{{movie.overallRating}}</text></text>
+  <text>{{movie.story}}</text>
+</view>

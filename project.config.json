@@ -37,12 +37,25 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": -1,
 			"list": [
 				{
 					"id": -1,
-					"name": "weekly",
-					"pathName": "pages/weekly/weekly"
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "weeklycard",
+					"pathName": "pages/weeklycard/weeklycard",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "moviedetails",
+					"pathName": "pages/moviedetails/moviedetails",
+					"query": ""
 				}
 			]
 		}

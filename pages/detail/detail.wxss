@@ -1,0 +1,8 @@
+/* pages/detail/detail.wxss */
+.swiper-img{
+  width: 100%;
+  height: 100%;
+}
+.detail-introduction{
+  font-size: 30rpx
+}

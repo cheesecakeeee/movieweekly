@@ -1,12 +1,15 @@
 {
   "pages": [
     "pages/about/about",
-    "pages/weekly/weekly"
+    "pages/weekly/weekly",
+    "pages/moviedetails/moviedetails",
+    "pages/weeklycard/weeklycard",
+    "pages/detail/detail"
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/weekly/weekly",
+        "pagePath": "pages/weeklycard/weeklycard",
         "text": "每周推荐",
         "iconPath": "images/icon1.png",
         "selectedIconPath": "images/icon2.png"
